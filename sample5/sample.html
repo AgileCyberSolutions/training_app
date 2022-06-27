@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script type="text/javascript" src="./sample.js"></script>
+
+    <script type="text/javascript">
+        // defining the sweet box object
+        var sweets = {
+            total: 100,
+            sweetType: 'Milk chocolate',
+            price: 10
+        };
+
+        var sweetsPerTurn = 20; // I will eat 20 sweets per turn
+
+        console.log('Total sweets ' + sweets.total);
+
+        while (sweets.total > 0) {
+            eatSweets(sweetsPerTurn)
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Sample 5</h1>
+    <p>Open developer tools</p>
+    <div>
+        <ul>
+            <li>I have a box of chocolates with 100 chocolates. If I take 20 from it each time I should be able to take 5 times. But here the total goes to 0 in one turn. Find the bug and fix it</li>
+            <li>Should not change the calculation logic ie., should not directly subtract the value</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
